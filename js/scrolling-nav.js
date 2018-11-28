@@ -27,4 +27,15 @@
 
 })(jQuery); // End of use strict
 
+for (let i = 1; i < 100; i++) {
+  const cn = [i]
+ if(i % 5 === 0 && i % 3 === 0 ) {console.log("FizzBuzz")}
+
+ else if (i % 5 === 0) {console.log("Fizz")}
+
+ else if (i % 3 === 0) {console.log("Buzz")}
+
+ else if (cn){console.log(cn)}
+}
+
 
