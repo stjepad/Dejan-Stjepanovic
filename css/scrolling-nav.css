@@ -52,6 +52,7 @@ section {
   /* text-shadow: -1px 0 #1C6EA4, 0 1px #1C6EA4, 1px 0 #1C6EA4, 0 -1px #1C6EA4; */
   font-size: 1.5em;
   margin-right:1em;
+  margin-bottom: 3em;
 
 
 }
@@ -71,12 +72,13 @@ section {
   height: 200px;
   position: fixed;
   z-index: 1;
-  top: 68%;
+  top: 60%;
   right: 10px;
   /* background: #eee; */
   overflow-x: hidden;
   padding: 8px 0;
   text-align: center;
+
 
 }
 
