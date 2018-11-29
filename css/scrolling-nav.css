@@ -72,6 +72,21 @@ section {
   height: 200px;
   position: fixed;
   z-index: 1;
+  top: 73%;
+  right: 10px;
+  /* background: #eee; */
+  overflow-x: hidden;
+  padding: 8px 0;
+  text-align: center;
+
+}
+
+@media only screen and (max-width: 660px) {
+.sidenav {
+  width: 60px;
+  height: 200px;
+  position: fixed;
+  z-index: 1;
   top: 61%;
   right: 10px;
   /* background: #eee; */
@@ -79,7 +94,7 @@ section {
   padding: 8px 0;
   text-align: center;
 
-
+}
 }
 
 .Name {
@@ -113,6 +128,7 @@ section {
 .lead{
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 2em;
 }
 
 .experienceCardContainer{
@@ -164,6 +180,8 @@ section {
   padding-top: 2.5em;
   border-radius: 10px;
 }
+
+
 
 .IconFontSize{
   font-size: 5em;

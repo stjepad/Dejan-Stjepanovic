@@ -38,4 +38,16 @@ for (let i = 1; i < 100; i++) {
  else if (cn){console.log(cn)}
 }
 
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+//   var currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > currentScrollPos) {
+//     document.getElementsByClassName("mainView").style.right = "0";
+//   } else {
+//     document.getElementsByClassName("mainView").style.right = "-100px";
+//   }
+//   prevScrollpos = currentScrollPos;
+// }
+
 
