@@ -25,6 +25,20 @@
     offset: 54
   });
 
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.querySelector(".sidenav").style.display = "block";
+    } else {
+      document.querySelector(".sidenav").style.display = "none";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+
+
+
+
 })(jQuery); // End of use strict
 
 for (let i = 1; i < 100; i++) {
