@@ -196,6 +196,7 @@ section {
   .IconFontSize{
     font-size: 2em;
     padding: .5em;
+    font: black;
   }
 }
 .pictureSql{
